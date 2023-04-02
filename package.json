@@ -1,0 +1,17 @@
+{
+    "name": "graphic-maker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "",
+    "license": "none",
+    "dependencies": {
+        "inquirer": "8.2.4"
+    },
+    "devDependencies": {
+        "jest": "^24.9.0"
+    }
+}
