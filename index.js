@@ -45,13 +45,14 @@ const questions = [
 
 // function writeToFile(fileName, data) {
 //     fs.writeFile(fileName, generateGraphic(data), (err) =>
-//     err ? console.error(err) : console.log('Success!'))
+//     err ? console.error(err) : console.log('Your SVG has been created!'))
 // }
 
 // function init() {
 //     inquirer
 //     .prompt(questions)
-//     .then((data) => {
-//         writeToFile('./examples/graphic.svg', data);
+//     .then()
+//     .then((answers) => {
+//         writeToFile('./examples/graphic.svg', answers);
 //     });
 // }
