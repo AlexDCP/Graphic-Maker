@@ -15,28 +15,31 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateGraphic = require('./lib/generateGraphic');
+const {Shape, Triangle, Circle, Square} = require('./lib/shapes');
 
 const questions = [
     {
         type: 'input',
         message: 'Please select three characters for your graphic!',
-        name: '',
+        name: 'characters',
     },
     {
         type: 'input',
         message: 'What would you like the text color to be?',
-        name: '',
+        name: 'textColor',
+        choice: ['Red', 'Blue', 'Black', 'White'],
     },
     {
         type: 'list',
         message: 'What shape would you like for your graphic?',
-        name: ['Circle', 'Square', 'Triangle'],
+        name: 'shape',
+        choice: ['Circle', 'Square', 'Triangle'],
     },
     {
-        type: 'input',
+        type: 'list',
         message: 'What color would you like the shape to be?',
-        name: '',
+        name: 'shapeColor',
+        choice: ['Red', 'Blue', 'Yellow', 'Green'],
     },
 ];
 
