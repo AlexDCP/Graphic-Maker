@@ -11,6 +11,7 @@ your needs!
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Tests](#tests)
 
 ## Installation
 
@@ -20,9 +21,9 @@ In order to run this make sure your dependencies for inquirer and jest are funct
 
 After you have the modules installed, use the command node index.js to bring up the prompt and create your SVG graphic.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+link to demo video: https://drive.google.com/file/d/1MZdK2Oz6-VWELb4hR9ucRTW433YDXKtk/view
+
+![Screenshot](./assets/gmaker-screenshot.JPG)
 
 ## Credits
 
