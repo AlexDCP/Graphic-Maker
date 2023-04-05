@@ -43,10 +43,7 @@ const questions = [
     },
 ];
 
-// function writeToFile(fileName, data) {
-//     fs.writeFile(fileName, generateGraphic(data), (err) =>
-//     err ? console.error(err) : console.log('Your SVG has been created!'))
-// }
+
 
 function init() {
     inquirer
@@ -66,9 +63,11 @@ function init() {
         
         console.log(shape);
         console.log(shape.render());
-
-        // writeFile('./examples/graphic.svg', shape);
+        fs.writeFile('./examples/graphic.svg', shape.render(), (err) =>
+        err ? console.error(err) : console.log('Your SVG has been created!'));
+        
     })
 }
+
 
 init();
